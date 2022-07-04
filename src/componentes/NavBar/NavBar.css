@@ -1,0 +1,25 @@
+.Menu{
+    display: flex;
+    flex-direction: row;
+    gap: 7em;
+    justify-content: center;
+    align-items: center;
+}
+.categorias{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    gap: 2em;
+    align-items: center;
+}
+.lista{
+    text-decoration: none;
+    color: black;
+}
+.lista :hover{
+    background: #b8ffcd;
+}
+.titulo{
+    font-family:'STIX Two Text', serif;
+}
