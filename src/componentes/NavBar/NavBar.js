@@ -1,9 +1,10 @@
 import './NavBar.css';
+import Icon from '../icon/icon';
 
 function Nav(){
     return(
         <div className='Menu'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt14Io5tksYMy34uTYCfu3WbQ3aMS7kCcO_Q&usqp=CAU"/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt14Io5tksYMy34uTYCfu3WbQ3aMS7kCcO_Q&usqp=CAU" className='ImgLogo'/>
             <h1 className='titulo'>BookStore</h1>
             <div>
                 <ul className='categorias'>
@@ -14,6 +15,7 @@ function Nav(){
                     <a href="" className='lista'><li>Autoayuda</li></a>
                 </ul>
             </div>
+            <Icon />
         </div>
     );
 };

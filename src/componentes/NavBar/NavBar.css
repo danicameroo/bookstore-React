@@ -1,7 +1,11 @@
+.ImgLogo{
+    width: 13em;
+    height: auto;
+}
 .Menu{
     display: flex;
     flex-direction: row;
-    gap: 7em;
+    gap: 5em;
     justify-content: center;
     align-items: center;
 }

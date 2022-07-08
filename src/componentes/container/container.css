@@ -1,0 +1,11 @@
+.ListaLibros{
+    display: flex;
+    gap: 5em;
+    justify-content: center;
+    list-style: none;    
+}
+.ImgLibros{
+    width: 10em;
+    height: auto;
+    margin-top: 2em;
+}
