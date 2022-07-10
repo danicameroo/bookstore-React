@@ -1,8 +1,9 @@
-import './icon.css';
+
+import { BsFillBasket3Fill } from "react-icons/bs";
 
 function Icon (){
     return(
-        <img src="https://cdn-icons-png.flaticon.com/512/1250/1250712.png" alt="" className="ImgCarritoLogo"></img>
+        <BsFillBasket3Fill />
     )
 }
 

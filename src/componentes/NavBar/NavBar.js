@@ -4,15 +4,15 @@ import Icon from '../icon/icon';
 function Nav(){
     return(
         <div className='Menu'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt14Io5tksYMy34uTYCfu3WbQ3aMS7kCcO_Q&usqp=CAU" className='ImgLogo'/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt14Io5tksYMy34uTYCfu3WbQ3aMS7kCcO_Q&usqp=CAU" className='ImgLogo' alt=''/>
             <h1 className='titulo'>BookStore</h1>
             <div>
                 <ul className='categorias'>
-                    <a href="" className='lista'><li>Todos</li></a>
-                    <a href="" className='lista'><li>Terror</li></a>
-                    <a href="" className='lista'><li>Romance</li></a>
-                    <a href="" className='lista'><li>Comedia</li></a>
-                    <a href="" className='lista'><li>Autoayuda</li></a>
+                    <li className='lista'>Todos</li>
+                    <li className='lista'>Terror</li>
+                    <li className='lista'>Romance</li>
+                    <li className='lista'>Comedia</li>
+                    <li className='lista'>Autoayuda</li>
                 </ul>
             </div>
             <Icon />
