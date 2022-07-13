@@ -10,19 +10,12 @@ const ContadorTotal = ({stock}) => {
     const [count, setCount] = useState(1)
 
     const less = () => {
-        if(count === 1){
-            console.log(count)
-        }else{
-            setCount(count - 1)
-        }
-    }
+        setCount(count - 1);
+    };
+
     const plus = () => {
-        if(count === stock){
-            console.log(count)
-        }else{
-            setCount(count + 1)
-        }
-    }
+        setCount(count + 1);
+    };
 
     const onAdd = () => {
         console.log(count)
@@ -30,8 +23,8 @@ const ContadorTotal = ({stock}) => {
 
     return (
         <div className="BotonContenedor">
-            <button className="BotonContador" onClick={less}><IconLess /></button>{count}
-            <button className="BotonContador" onClick={plus}><IconPlus /></button>
+            <button disabled={count <= 1} className="BotonContador" onClick={less}><IconLess /></button>{count}
+            <button disabled={count >= stock} className="BotonContador" onClick={plus}><IconPlus /></button>
             <BotonCarrito onAdd={onAdd}/>
         </div>
     )

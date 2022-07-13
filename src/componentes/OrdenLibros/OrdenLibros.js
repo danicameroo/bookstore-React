@@ -8,7 +8,7 @@ const OrdenLibros = ({libro, image}) =>{
                 <li>
                     <div>{libro}</div>
                     <img src={image} className="ImgLibros" alt=""/>
-                    <ContadorTotal stock={4}/>
+                    <ContadorTotal initial={1} stock={4}/>
                 </li>     
             </ul>
         </div>
