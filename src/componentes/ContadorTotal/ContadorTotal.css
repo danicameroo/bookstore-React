@@ -1,0 +1,11 @@
+.BotonContador{
+    background: none;
+    border: none;
+    width: 45%;
+}
+.BotonContenedor{
+    width: 10em;
+    height: 1.5em;
+    background: none;
+    border: gray 1px solid;
+}
