@@ -8,7 +8,7 @@ const BotonAgregar = ({onAdd}) => {
     }
 
     return(
-        <button className="Agregar" onClick= {handleclick}>Agregar al carrito</button>
+        <button type="button" class="btn btn-light" className="Agregar" onClick= {handleclick}><p className='font'>Agregar al carrito</p></button>
     )
 }
 

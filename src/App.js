@@ -1,12 +1,11 @@
 import Nav from './componentes/NavBar/NavBar.js';
-import Libros from './componentes/ListaLibros/Libros.js';
-
+import ItemLibros from './componentes/ItemLibros/ItemLibros.js';
 
 
 function App() {
   return <>
     <Nav />
-    <Libros />
+    <ItemLibros />
     </>;
     
 }

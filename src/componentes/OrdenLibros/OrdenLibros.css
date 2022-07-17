@@ -2,7 +2,11 @@
     list-style: none;  
 }
 .ImgLibros{
-    width: 10em;
+    width: 13em;
     height: auto;
     margin-top: 2em;
+}
+.font{
+    font-family: "STIX Two Text", serif;
+    margin: 0.2em;
 }
