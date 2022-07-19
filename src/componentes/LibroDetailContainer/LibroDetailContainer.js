@@ -1,8 +1,8 @@
-import { ListaLibros } from "./ListaLibros"
+import { ListaLibros } from "../ItemLibros/ListaLibros"
 import { useEffect, useState } from "react"
-import Libros from "../MostrarLibros/Libros";
+import LibroDetail from "../LibroDetail/LibroDetail";
 
-const ItemLibros = () => {
+const LibroDetailContainer = () => {
     const [libros,  setLibros] = useState([]);
 
     useEffect(() => {
@@ -18,10 +18,10 @@ const ItemLibros = () => {
     
     
     return(
-        <Libros libros={libros}/>
+        <LibroDetail libros={libros}/>
     )
 }
 
 
 
-export default ItemLibros;
+export default LibroDetailContainer;

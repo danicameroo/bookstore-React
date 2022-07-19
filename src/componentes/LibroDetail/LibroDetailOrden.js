@@ -1,19 +1,16 @@
-import './OrdenLibros.css'
-import ContadorTotal from '../ContadorTotal/ContadorTotal'
-import BotonDetail from '../Boton/BotonDetail'
 
-const OrdenLibros = ({titulo, autor, points, image}) =>{
+
+
+const LibroDetailOrden = ({titulo, autor, points, image}) =>{
     return(
         <div>
             <ul className='Lista'>
                 <li>
                     
                     <img src={image} className="ImgLibros" alt=""/>
-                    <div><BotonDetail/></div>
                     <p className='font'>{titulo}</p>
                     <p className='font'>{autor}</p>
                     <p className='font'>{points}</p>
-                    <div><ContadorTotal initial={1} stock={4} onAdd/></div>
                 </li>     
             </ul>
         </div>
@@ -21,4 +18,4 @@ const OrdenLibros = ({titulo, autor, points, image}) =>{
 
 }
 
-export default OrdenLibros
+export default LibroDetailOrden;

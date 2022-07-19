@@ -3,12 +3,8 @@ import './BotonCarrito.css'
 
 
 const BotonAgregar = ({onAdd}) => {
-    const handleclick = () => {
-        onAdd()
-    }
-
     return(
-        <button type="button" class="btn btn-light" className="Agregar" onClick= {handleclick}><p className='font'>Agregar al carrito</p></button>
+        <button type="button" className="btn btn-light Agregar" onClick= {onAdd}><p className='font'>Agregar al carrito</p></button>
     )
 }
 

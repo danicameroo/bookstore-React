@@ -5,9 +5,9 @@ import './ContadorTotal.css'
 import BotonCarrito from '../Boton/BotonCarrito'
 
 
-const ContadorTotal = ({stock}) => {
+const ContadorTotal = ({stock, initial}) => {
 
-    const [count, setCount] = useState(1)
+    const [count, setCount] = useState(initial)
 
     const less = () => {
         setCount(count - 1);
