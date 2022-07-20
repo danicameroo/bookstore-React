@@ -1,6 +1,6 @@
 import { ListaLibros } from "./ListaLibros"
 import { useEffect, useState } from "react"
-import Libros from "../MostrarLibros/Libros";
+import Libros from "../LibrosListContainer/Libros";
 
 const ItemLibros = () => {
     const [libros,  setLibros] = useState([]);

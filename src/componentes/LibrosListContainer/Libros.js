@@ -1,5 +1,5 @@
-import OrdenLibros from "../OrdenLibros/OrdenLibros";
-import {ListaLibros} from '../ItemLibros/ListaLibros';
+import OrdenLibros from "../Libros/OrdenLibros";
+import {ListaLibros} from '../LibrosList/ListaLibros';
 import './Libros.css'
 
 const Libros = () => {

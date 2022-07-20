@@ -1,6 +1,6 @@
 import { useState } from "react"
-import IconPlus from "../icon/iconPlus"
-import IconLess from "../icon/iconLess"
+import IconPlus from "../CardWidget/iconPlus"
+import IconLess from "../CardWidget/iconLess"
 import './ContadorTotal.css'
 import BotonCarrito from '../Boton/BotonCarrito'
 

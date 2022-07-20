@@ -1,5 +1,5 @@
 import Nav from './componentes/NavBar/NavBar.js';
-import ItemLibros from './componentes/ItemLibros/ItemLibros.js';
+import ItemLibros from './componentes/LibrosList/ItemLibros.js';
 import LibroDetailContainer from './componentes/LibroDetailContainer/LibroDetailContainer.js';
 
 function App() {
