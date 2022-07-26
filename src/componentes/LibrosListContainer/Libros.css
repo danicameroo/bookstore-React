@@ -1,5 +1,10 @@
-.ListaLibros{
+.flexBoxCatalogo{
     display: flex;
-    gap: 5em;
-    justify-content: center;  
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+.Lista{
+    list-style: none; 
 }

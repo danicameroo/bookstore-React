@@ -3,17 +3,20 @@ import ContadorTotal from '../LibroCount/ContadorTotal';
 
 const LibroDetail = ({libros}) => {
     return(
-        <div>
+        <div key={libros.id}>
             <div className="flexBox">
                 <div>
-                    <img src={libros.image} className="ImgLibros" alt=""/>
+                    <img src={libros.image} className="ImgLibro" alt=""/>
                 </div>
                 <div className='Box caracters'>
                     <h1 className='font'>{libros.titulo}</h1>
-                    <h3 className='font'>{libros.autor}</h3>
-                    <h3 className='font'>{libros.points}</h3>
-                    <h3 className='font'>{libros.genero}</h3>
-                    <h3 className='font'>{libros.precio}$</h3>
+                    <p className='fontParrafo'>Autor: <strong>{libros.autor}</strong></p>
+                    <p className='fontParrafo'>Editorial: <strong>{libros.editorial}</strong></p>
+                    <p className='fontParrafo'>Año de edicion: <strong>{libros.año}</strong></p>
+                    <p className='fontParrafo'>Numero de paginas: <strong>{libros.paginas}</strong></p>
+                    <p className='fontParrafo'>Categoria: <strong>{libros.categoria}</strong></p>
+                    <p className='fontParrafo'><strong>{libros.points}</strong></p>
+                    <h2 className='fontPrecio'>{libros.precio}$</h2>
                     <div className='contador'><ContadorTotal initial={1} stock={4} onAdd />
                 </div>
                 </div>
@@ -23,7 +26,7 @@ const LibroDetail = ({libros}) => {
                 </div>                
             </div>
             <div>
-                <h2 className='font caracters'>Libros Recomendados</h2>
+                <h2 className='fontRecomendados caracters'>Libros Recomendados</h2>
                 <div className='imgFlex'>
                     <div>
                         <img src="https://trabalibros.com/rs/13480/4886d523-1977-4fa1-ab24-df1b609c897c/5bd/filename/h401304.jpg" className="ImgRecomendados" alt=""/>

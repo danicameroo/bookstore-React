@@ -12,17 +12,15 @@
 .categorias{
     display: flex;
     flex-direction: row;
-    text-decoration: none;
     list-style: none;
     gap: 2em;
     align-items: center;
 }
 .lista{
-    text-decoration: none;
     color: black;
 }
-.lista :hover{
-    color: black;
+.categorias :hover{
+    color: green;
 }
 .titulo{
     font-family:'STIX Two Text', serif;

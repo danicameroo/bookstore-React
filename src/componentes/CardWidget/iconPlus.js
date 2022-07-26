@@ -1,5 +1,5 @@
-import { BsPlus } from "react-icons/bs";
 import './icon.css'
+import { BsPlus } from "react-icons/bs";
 
 function IconPlus (){
     return(

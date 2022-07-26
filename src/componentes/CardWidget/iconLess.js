@@ -1,5 +1,5 @@
-import { BsDash } from "react-icons/bs";
 import './icon.css'
+import { BsDash } from "react-icons/bs";
 
 function IconLess (){
     return(

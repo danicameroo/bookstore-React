@@ -1,12 +1,11 @@
-import OrdenLibros from "../Libros/OrdenLibros";
-import {ListaLibros} from '../LibrosList/ListaLibros';
 import './Libros.css'
+import OrdenLibros from "../Libros/OrdenLibros";
 
-const Libros = () => {
+const Libros = ({libros}) => {
     return(
-        <div className="ListaLibros">
-            {ListaLibros.map(({titulo, autor, points, image, id}) => <OrdenLibros key={id} titulo={titulo} autor={autor} points={points} image={image}/>)}
-        </div>
+        <ul className="Lista flexBoxCatalogo">
+            {libros.map(ListaLibros => <OrdenLibros key={ListaLibros.id} info={ListaLibros}/>)}
+        </ul>
     )
 }
 

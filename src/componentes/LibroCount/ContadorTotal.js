@@ -1,8 +1,8 @@
-import { useState } from "react"
-import IconPlus from "../CardWidget/iconPlus"
-import IconLess from "../CardWidget/iconLess"
 import './ContadorTotal.css'
-import BotonCarrito from '../Boton/BotonCarrito'
+import BotonCarrito from 'componentes/Boton/BotonCarrito'
+import IconPlus from "componentes/CardWidget/iconPlus"
+import IconLess from "componentes/CardWidget/iconLess"
+import { useState } from "react"
 
 
 const ContadorTotal = ({stock, initial}) => {
@@ -18,7 +18,7 @@ const ContadorTotal = ({stock, initial}) => {
     };
 
     const onAdd = () => {
-        console.log(count)
+        alert("se agregaron " + count)
     }
 
     return (

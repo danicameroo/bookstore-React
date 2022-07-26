@@ -10,7 +10,8 @@
     margin-top: 3em;
 }
 .caracters{
-    text-align: center;
+    text-align: start;
+    margin-left: 5em;
 }
 .ImgLibro{
     width: 20em;
@@ -18,7 +19,6 @@
 }
 .contador{
     margin-top: 2em;
-    margin-left: 3em;
 }
 .imgFlex{
     display: flex;
@@ -31,4 +31,20 @@
 .ImgRecomendados{
     width: 10em;
     height: auto;
+}
+.fontParrafo{
+    font-family: "STIX Two Text", serif;
+    margin: 0.3em;
+    font-size: 1.1em;
+}
+.fontPrecio{
+    font-family: "STIX Two Text", serif;
+    margin: 0;
+    text-align: center;
+    color: green;
+}
+.fontRecomendados{
+    font-family: "STIX Two Text", serif;
+    margin: 0;
+    text-align: center;
 }
