@@ -1,3 +1,4 @@
+import Cart from 'routes/cart/Cart.js';
 import ItemLibros from './routes/LibrosList/ItemLibros.js';
 import LibroDetailContainer from './routes/LibroDetailContainer/LibroDetailContainer.js';
 import Nav from './routes/NavBar/NavBar.js';
@@ -11,6 +12,7 @@ function App() {
         <Route path='/' element={<ItemLibros />}></Route>
         <Route path='/categoria/:categoriaId' element={<ItemLibros />}></Route>
         <Route path='/detalle/:detalleId' element={<LibroDetailContainer />}></Route>
+        <Route path='/cart' element={<Cart/>}></Route>
       </Routes>
     </BrowserRouter>
     </>;

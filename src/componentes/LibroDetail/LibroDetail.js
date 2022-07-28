@@ -1,7 +1,15 @@
 import './LibroDetail.css';
 import ContadorTotal from '../LibroCount/ContadorTotal'; 
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const LibroDetail = ({libros}) => {
+    const [cart, setCart] = useState(false)
+
+    const onAdd = () => {
+        setCart(true)
+    }
+
     return(
         <div key={libros.id}>
             <div className="flexBox">
@@ -16,9 +24,13 @@ const LibroDetail = ({libros}) => {
                     <p className='fontParrafo'>Numero de paginas: <strong>{libros.paginas}</strong></p>
                     <p className='fontParrafo'>Categoria: <strong>{libros.categoria}</strong></p>
                     <p className='fontParrafo'><strong>{libros.points}</strong></p>
+                    <p className='fontPrecio'>Quedan {libros.stock} en stock</p>
                     <h2 className='fontPrecio'>{libros.precio}$</h2>
-                    <div className='contador'><ContadorTotal initial={1} stock={4} onAdd />
-                </div>
+                    <div className='contador'>
+                        {
+                            cart ? <Link to='/cart'>Ver en el carrito</Link> : <ContadorTotal initial={1} stock={libros.stock} onAdd={onAdd}/>
+                        }  
+                    </div>
                 </div>
                 <div className='Box'>
                     <h2 className='font'>Sinopsis</h2>

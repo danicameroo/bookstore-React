@@ -10,6 +10,7 @@ export const ListaLibros = [
         "points": "8/10",  
         "precio": 30.50, 
         "sinopsis": "Paul Sheldon es un escritor que sufre un grave accidente y recobra el conocimiento en una apartada casa en la que vive una misteriosa mujer, corpulenta y de extraño carácter. Se trata de una antigua enfermera, involucrada en varias muertes misteriosas ocurridas en diversos hospitales.",
+        "stock": 12,
         "titulo": "Misery",
     },
     { 
@@ -23,6 +24,7 @@ export const ListaLibros = [
         "points": "9/10",  
         "precio": 20.50, 
         "sinopsis": "Satírica, antirromántica, profunda y mordaz a un tiempo, la obra de Jane Austen nace de la observación de la vida doméstica y de un profundo conocimiento de la condición humana. Con la llegada del señor Darcy a su región, las vidas de los Bennet y sus cinco hijas se vuelven del revés. El orgullo y la distancia social, la astucia y la hipocresía, los malentendidos y los juicios apresurados abocan a los personajes al escándalo y al dolor, pero también a la comprensión, el conocimiento y el amor verdadero. Orgullo y prejuicio ha fascinado a generaciones de lectores por sus inolvidables personajes y su desopilante retrato de una sociedad, la Inglaterra victoriana y rural, tan contradictoria como absurda.",
+        "stock": 9,
         "titulo": "Orgullo y prejuicio",
     },
     {
@@ -36,6 +38,7 @@ export const ListaLibros = [
         "points": "7/10",
         "precio": 30.50, 
         "sinopsis": "Kim no tiene ganas de ir arrastrando migas de pastel tras haber eludido los hidratos de carbono toda su vida. Además, no puede permitir que su marido se consuele con otra. Sólo le queda una salida: acumular buen karma para ascender por la escala de la reencarnación y volver a ser humana.",
+        "stock": 7,
         "titulo": "Maldito karma",
     },
     {
@@ -49,6 +52,7 @@ export const ListaLibros = [
         "points": "8/10",
         "precio": 30.50, 
         "sinopsis": "A traves de sus páginas, conocemos la extraordinaria historia de Julian Mantle, un abogado de exito que, tras sufrir un ataque al corazón, debe afrontar el gran vacío de su existencia. Inmerso en esta crisis existencial, Julian toma la radical decisión de vender todas sus pertenencias y viajar a la India.",
+        "stock": 11,
         "titulo": "El monje que vendio su ferrari",
     },
     {
@@ -62,6 +66,7 @@ export const ListaLibros = [
         "points": "7/10",  
         "precio": 20.40, 
         "sinopsis": "Jekyll es un científico que crea una poción o bebida que tiene la capacidad de separar la parte más humana del lado más maléfico de una persona. Cuando Jekyll bebe esta mezcla se convierte en Edward Hyde, un criminal capaz de cualquier atrocidad. Según se cuenta en la novela, en nosotros siempre están el bien y el mal juntos; por eso, Hyde, símbolo de todo lo perverso, resulta repugnante a todo aquel que lo ve.",
+        "stock": 9,
         "titulo": "El extraño caso del doctor Jekyll y el señor Hyde",
     },
     { 
@@ -75,6 +80,7 @@ export const ListaLibros = [
         "points": "8/10",  
         "precio": 18.90, 
         "sinopsis": "Mujercitas es una novela de la escritora estadounidense Louisa May Alcott publicada el 30 de septiembre de 1868, que trata la vida de cuatro niñas que, tras pasar la adolescencia con la Guerra Civil en los Estados Unidos como fondo, entre 1861 y 1865, se convierten en mujeres. Está basada en las vivencias de la autora durante su niñez en la ciudad de Concord, Massachusetts",
+        "stock": 9,
         "titulo": "Mujercitas",
     },
     {
@@ -88,6 +94,7 @@ export const ListaLibros = [
         "points": "7/10",
         "precio": 11.90, 
         "sinopsis": "Ignatius J. Reilly es un ser inadaptado y anacrónico que sueña con que el modo de vida medieval, así como su moral, reinen de nuevo en el mundo. Para ello, y con la intención de ser escuchado en un mundo en el que es, en realidad, un incomprendido, rellena de su puño y letra cientos de cuadernos en los que plasma su visión del mundo. Mientras llena estos cuadernos, los va desperdigando por su habitación, con la esperanza de ordenarlos algún día y así crear su ambiciosa obra maestra. Mientras, la diosa Fortuna, en contra de su voluntad, lo sume en ese mundo capitalista que él mismo tanto odia y se ve obligado a someterse a lo que él considera una forma de esclavitud: el trabajo. Resignado, se compara a sí mismo con Boecio (el cual aceptó sin queja su propia ejecución) y sale a buscar un empleo. Su actividad laboral y vital es el hilo que une y da sentido a toda la obra y lo que permite conocer a otros personajes, igual de estrambóticos y entrañables que Ignatius.",
+        "stock": 8,
         "titulo": "La conjura de los necios",
     },
     {
@@ -101,6 +108,7 @@ export const ListaLibros = [
         "points": "10/10",
         "precio": 10.50, 
         "sinopsis": "El principito es un cuento poético que viene acompañado de ilustraciones hechas con acuarelas por el mismo Saint-Exupéry. En él, un piloto se encuentra perdido en el desierto del Sahara después de que su avión sufriera una avería, pero para su sorpresa, es allí donde conoce a un pequeño príncipe proveniente de otro planeta. La historia tiene una temática filosófica, donde se incluyen críticas sociales dirigidas a la «extrañeza» con la que los adultos ven las cosas. Estas críticas a las cosas «importantes» y al mundo de los adultos van apareciendo en el libro a lo largo de la narración. A pesar de que es considerado un libro infantil por la forma en la que se encuentra escrito, también posee observaciones profundas sobre la vida y la naturaleza humana.",
+        "stock": 20,
         "titulo": "El principito",
     },
     {
@@ -114,6 +122,7 @@ export const ListaLibros = [
         "points": "7/10",  
         "precio": 16.99, 
         "sinopsis": "Para leer al anochecer presenta trece de las más célebres y espeluznantes historias de fantasmas escritas por Dickens. Villanos que mueren ahorcados, mujeres misteriosas que encargan retratos desde el más allá, marinos desaparecidos que hacen visitas inesperadas a los vivos, viajeros victorianos que se encuentran con siniestros niños en oscuros caserones... Puro talento gótico.",
+        "stock": 3,
         "titulo": "Para leer al atardecer",
     },
     { 
@@ -127,6 +136,7 @@ export const ListaLibros = [
         "points": "9/10",  
         "precio": 15.99, 
         "sinopsis": `Llámame por tu nombre es una novela estadounidense de 2007 escrita por André Aciman, que narra un romance entre un joven italiano y judío de diecisiete años y un estudiante estadounidense de veinticuatro años. Ambientado en la Italia de los años 1980, la obra repasa veinte años de la historia de Elio Perlman y Oliver. Stacey D'Erasmo, del The New York Times, describió la novela como "un libro excepcionalmente bello". Charles Kaiser, del The Washington Post, resaltó que "todas las víctimas de un amor obsesivo reconocerían los matices de Aciman"`,
+        "stock": 5,
         "titulo": "Llamame por tu nombre",
     },
     {
@@ -140,6 +150,7 @@ export const ListaLibros = [
         "points": "8/10",
         "precio": 21.50, 
         "sinopsis": "Es el verano de 2011. Adolf Hitler despierta en un descampado en el centro de Berlín. No hay símbolos nazis, reina la paz, las calles están invadidas por extranjeros, y Alemania está gobernada por una mujer rechoncha que hace lo que quiere en Europa. Sesenta y seis años después de su caída, el resucitado Hitler triunfa en la televisión como perfecto imitador del Führer, un cómico genial. Pero él no bromea en absoluto. La fama es la plataforma perfecta para retomar su carrera política. ¿Qué daño podría hacer hoy Hitler? Esta disparatada historia está contada por él mismo, un hombre que analiza tenazmente su entorno, que descubre de modo fulminante los puntos débiles de los demás, que, con una terquedad sin límites, se guía por su extraña lógica, con fanatismo pero también con lucidez.",
+        "stock": 8,
         "titulo": "Ha vuelto",
     },
     {
@@ -153,6 +164,7 @@ export const ListaLibros = [
         "points": "8/10",
         "precio": 12.50, 
         "sinopsis": "El secreto el libro es de autoayuda y motivación sobre el poder del pensamiento positivo, su autor es Rhonda Byrne. El libro se basa en la Ley de la Atracción y se centra en que los sueños y deseos se hagan realidad. Todo se basa en la manifestación, y que por lo tanto pensar en cualquier cosa, sea dinero, amor, etc, se atrae por si solo con el pensamiento. También habla del pensamiento positivo, porque preocupándose por el peor de los casos solo hará que sus miedos se hagan realidad.",
+        "stock": 10,
         "titulo": "El secreto",
     },
     {
@@ -166,6 +178,7 @@ export const ListaLibros = [
         "paginas": 592,
         "precio": 28.50, 
         "sinopsis": "En la ciudad ficticia de Flint City, Oklahoma, el detective de la policía Ralph Anderson arresta al entrenador de béisbol y profesor Terry Maitland frente a una multitud de espectadores, acusándolo de violar, matar y mutilar a un niño de 11 años. La ciudad se vuelve rápidamente contra Maitland, quien insiste en que es inocente y contrata al anciano abogado Howie Gold para que lo ayude, pero Anderson tiene testigos oculares y pruebas físicas claras (ADN y huellas dactilares) de su culpabilidad. Mientras tanto, los ansiosos reporteros acosan a la esposa de Terry, Marcy, y a sus dos hijas, Sarah y Grace. Pronto se revelará que existe algo imposible de explicar en estos terribles eventos.",
+        "stock": 15,
         "titulo": "El visitante",
     },
     { 
@@ -179,6 +192,7 @@ export const ListaLibros = [
         "points": "7/10",  
         "precio": 18.50, 
         "sinopsis": "Primero fueron catorce años de distancia, las cartas robadas, los impedimentos sociales, la guerra. Más tarde un compromiso inoportuno, la pasión arrebatadora, el amor improbable. Ahora, aunque el abismo que les separa es mucho más profundo, Noah no pierde la esperanza de reencontrarse con la única mujer a la que ha amado. Y cada mañana, tras colocarse las gafas, abre el diario de su vida y lee, lee todo lo que ha hecho de sus días un camino pleno de momentos de felicidad. Así, a través de las páginas de ese misterioso cuaderno, descubrimos la historia de un amor que hoy, quizás, pueda superar también el muro del olvido.",
+        "stock": 11,
         "titulo": "El cuaderno de noah",
     },
     {
@@ -192,6 +206,7 @@ export const ListaLibros = [
         "points": "6/10",
         "precio": 9.50, 
         "sinopsis": "Cansado de vivir en un mundo en el que no encuentra su lugar, y triste por la pérdida de sus seres queridos más cercanos, el riquísimo Andrew Blake decide dar un giro radical a su vida y desaparecer. Así, el día que le van a otorgar el Premio a la Excelencia Industrial, como mérito a toda una carrera como empresario, deja su Londres natal y se marcha al campo en Francia, ¡a trabajar como mayordomo! Cuando llega a Beauvillier se da cuenta enseguida de que la mansión ha perdido el alma que tuvo antaño. Entre sus habitantes están Nathalie, su patrona viuda y de horarios y exigencias extrañas Odile; una cocinera refunfuñona; Manon, una joven que no sabe lo que quiere, y Philippe, el jardinero y manitas que vive en la casita del jardín y se pelea con todo. La relación entre todos es un caos, y está llena de malentendidos y situaciones absurdas, así que Andrew no tiene otra opción que intentar poner orden en esta casa",
+        "stock": 5,
         "titulo": "Días de perros",
     },
     {
@@ -205,6 +220,7 @@ export const ListaLibros = [
         "points": "7/10",
         "precio": 14.00, 
         "sinopsis": "En Los cuatro acuerdos, don Miguel Ruiz revela la fuente de todas las creencias que nos ponen límites y nos privan de alegría, creando sufrimiento inútil. Basados en la antigua sabiduría tolteca, Los cuatro acuerdos nos ofrecen un poderoso código de conducta que puede transformar inmediatamente nuestra vida en una nueva experiencia de libertad, dicha absoluta, y amor.",
+        "stock": 7,
         "titulo": "Los cuatro acuerdos",
     },
     {
@@ -218,6 +234,7 @@ export const ListaLibros = [
         "points": "7/10",  
         "precio": 17.30, 
         "sinopsis": "El fantasma de la ópera es una novela gótica de Gastón Leroux, publicada en marzo de 1910. La obra está inspirada en hechos reales y en la novela Trilby de George du Maurier, y combina elementos de romance, terror, drama, misterio y tragedia. La historia trata sobre un ser misterioso que aterroriza la Ópera de París para atraer la atención de una joven vocalista a la que ama",
+        "stock": 6,
         "titulo": "El fantasma de la ópera",
     },
     { 
@@ -231,6 +248,7 @@ export const ListaLibros = [
         "paginas": 416,
         "precio": 25.99, 
         "sinopsis": "La poderosa y hosca figura de Heathcliff domina Cumbres Borrascosas, novela apasionada y tempestuosa cuya sensibilidad se adelantó a su tiempo. Los brumosos y sombríos páramos de Yorkshire son el singular escenario donde se desarrolla con fuerza arrebatadora esta historia de venganza y odio, de pasiones desatadas y amores desesperados que van más allá de la muerte y que hacen de ella una de las obras más singulares y atractivas de todos los tiempos.",
+        "stock": 10,
         "titulo": "Cumbres Borrascosas",
     },
     {
@@ -244,7 +262,8 @@ export const ListaLibros = [
         "points": "5/10",
         "precio": 10, 
         "sinopsis": "Alicia Trevi vive su particular vida de GLAMUR en Madrid. Pronto estrenará película, está más delgada que nunca, goza de una privilegiada tarifa de datos que satisface su NOMOFOBIA y, además, se está tirando al GUAPAZO nacional del momento. ¿Qué más podría desear? Lo tiene todo. Cuando por fuerza mayor se ve obligada a instalarse en un pequeño pueblo de La Mancha y malvivir durante un mes en una casa destartalada con un corral de gallinas pegado a su habitación, siente que todo su mundo se derrumba de golpe, y más, cuando encima tiene que lidiar con todo ese horror sin una mísera conexión WIFI con la que poder aislarse en su universo telemático. Todo sería más fácil, si el dueño de las gallinas, un guardia civil MUY SEXY, pero con muy MALAS PULGAS, tuviera el detallazo de prestarle sus megas, pero él no solo se niega a compartirlas, además, tiene la desfachatez de detenerla por un delito de nada y de tildarla de enferma mental. Pero ese no es el único problema al que tendrá que enfrentarse Alicia mientras dure su TORTURA rural. Una HERENCIA, un SECRETO familiar, muchos SUEÑOS por cumplir y dos CORAZONES que latirán a mil por hora",
-        "titulo": "Alicia en el pas sin wifi",
+        "stock": 3,
+        "titulo": "Alicia en el pais sin wifi",
     },
     {
         "autor": "Mark Manson",
@@ -257,6 +276,7 @@ export const ListaLibros = [
         "points": "8/10",
         "precio": 21.50, 
         "sinopsis": "En esta guía de autoayuda,  Mark Manson nos demuestra que la clave para ser personas más seguras y felices es manejar de mejor forma la adversidad. ¡A la mierda con la positividad!. Manson nos recuerda que los seres humanos somos falibles y limitados, no todos podemos ser extraordinarios, hay ganadores y perdedores en la sociedad, y esto no siempre es justo o es tu culpa. Manson nos aconseja que reconozcamos nuestras limitaciones y las aceptemos. Esto es, según él, el verdadero origen del empoderamiento. Una vez que abrazamos nuestros temores, faltas e incertidumbres, una vez que dejamos de huir y evadir y empezamos a confrontar las verdades dolorosas, podemos comenzar a encontrar el valor, la perseverancia, la honestidad, la responsabilidad, la curiosidad y el perdón que buscamos.",
+        "stock": 5,
         "titulo": "El sutil arte de que (casi todo) te importe una mierda",
     },
 ]
