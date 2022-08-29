@@ -1,0 +1,12 @@
+.Agregar{
+    width: 15.7em;
+    height: 2.3em;
+    margin-top: 0.5em;
+    background: none;
+    border: #077a22 1px solid;
+    color: #077a22;
+}
+.font{
+    font-family: "STIX Two Text", serif;
+    margin: 0.2em;
+}

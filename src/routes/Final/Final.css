@@ -1,0 +1,12 @@
+.fontFin{
+    font-family: "STIX Two Text", serif;
+    font-size: 1.5em;
+    color: #035015;
+}
+.imgFin{
+    width: 28em;
+    height: auto;
+}
+.flexFin{
+    text-align: center;
+}

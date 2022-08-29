@@ -1,0 +1,47 @@
+.Total{
+    text-align: center;
+}
+.fontCart{
+    font-family: "STIX Two Text", serif;
+    font-size: 3em;
+}
+.flexCart{
+    text-align: center;
+    margin: 1em;
+}
+.Form{
+    font-family: "STIX Two Text", serif;
+    font-size:1.5em;
+    height: 1.5em;
+    color: #035015;
+    border: none;
+    border-radius: 3em;
+    background-color: rgba(177, 255, 167, 0.815);
+    width: 90%;
+    margin: 0.5em;
+}
+.botonCart{
+    width: 15.7em;
+    height: 2.3em;
+    margin-top: 0.5em;
+    background: none;
+    border: #077a22 1px solid;
+    color: #077a22;
+    margin-bottom: 2em;
+}
+.compraFinal{
+    width: 10em;
+    text-decoration: none;
+}
+.fontAgg{
+    font-family: "STIX Two Text", serif;
+    font-size: 3em;
+    color: #035015;
+}
+.imgAgg{
+    width: 16em;
+    height: auto;
+}
+.flexAgg{
+    text-align: center;
+}

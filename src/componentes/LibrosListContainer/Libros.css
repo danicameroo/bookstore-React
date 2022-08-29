@@ -1,0 +1,10 @@
+.flexBoxCatalogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+.Lista{
+    list-style: none; 
+}

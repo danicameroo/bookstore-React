@@ -1,0 +1,26 @@
+.icon{
+    color: #077a22;
+}
+.iconoCart{
+    width: 2em;
+    height: auto;
+}
+.FlexCart{
+    position: relative;
+}
+.Absoluto{
+    position: absolute;
+    bottom: 1.3em;
+    left: 0.4em;
+    color: white;
+    
+}
+.circulo{
+    background: #077a22;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px; 
+}
+.link{
+    text-decoration: none;
+}

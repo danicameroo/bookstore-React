@@ -1,0 +1,59 @@
+.flexBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+.Box{
+    width: 20em;
+    margin-top: 3em;
+}
+.caracters{
+    text-align: start;
+    margin-left: 5em;
+}
+.ImgLibro{
+    width: 20em;
+    height: auto;
+}
+.contador{
+    margin-top: 2em;
+}
+.imgFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+    margin-bottom: 5em;
+    margin-top: 2em;
+}
+.ImgRecomendados{
+    width: 10em;
+    height: auto;
+}
+.fontParrafo{
+    font-family: "STIX Two Text", serif;
+    margin: 0.3em;
+    font-size: 1.1em;
+}
+.fontPrecio{
+    font-family: "STIX Two Text", serif;
+    margin: 0;
+    text-align: center;
+    color: green;
+}
+.fontRecomendados{
+    font-family: "STIX Two Text", serif;
+    margin: 0;
+    text-align: center;
+}
+.boton{
+    width: 15.7em;
+    height: 2.3em;
+    margin-top: 0.5em;
+    background: none;
+    border: #077a22 1px solid;
+    color: #077a22;
+}

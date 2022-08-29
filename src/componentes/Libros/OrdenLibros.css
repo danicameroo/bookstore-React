@@ -1,0 +1,22 @@
+
+.ImgLibros{
+    width: 15em;
+    height: 22em;
+    margin-top: 2em;
+}
+.font{
+    font-family: "STIX Two Text", serif;
+    margin: 0.2em;
+}
+.catalogoText{
+    width: 13em;
+    text-align: start;
+    justify-content: start;
+}
+.flexBoxCatalogo{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    margin-left: 5em;
+    margin-right: 5em;
+}

@@ -1,0 +1,17 @@
+.carritoDetail{
+    display: Flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+}
+.imgCarrito{
+    height: 12em;
+    width: 8em;
+}
+.Separador{
+    width: 50em;
+}
+.widthMax{
+    width: 10em;
+}
